@@ -1,0 +1,76 @@
+@media screen and (max-width: 767px) {
+    main{
+        padding: 20px;
+    }
+
+    #navlink{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+        top: -50rem;
+        right: 0;
+        width: 66%;
+        height: 100%;
+        background-color: hsl(36, 100%, 99%);
+        padding: 20px;
+    }
+
+    #navlink ul{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    #menu-close{
+        display: block;
+    }
+
+    .close{
+        float: right;
+    }
+
+    .Top-container{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .image1{
+        display: none;
+    }
+
+    .image2{
+        display: block;
+    }
+
+    .Bright-More{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bright{
+        width: 100%;
+    }
+    
+    .dive{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .Down-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
